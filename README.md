@@ -9,7 +9,8 @@
 
 - 💬 Ask us about **Java, Python, AIML, Html, CSS, Git.**
 
-- ⚡ Fun fact **Coding is hard as ice, but rewards are nice.**
+- ⚡ Our Quote **It's foolish to fear what we have yet see and know.
+                                                          - Uchiha Itachi**
 
 <p align="left">
 </p>
