@@ -48,4 +48,14 @@ def nutrition(index):
 	url = "https://calorieninjas.p.rapidapi.com/v1/nutrition"
 	querystring = {"query":index}
 	header = {
-		'x-rapidapi-key': "5d797ab107ms
+		'x-rapidapi-key': "5d797ab107mshe668f26bd044e64p1ffd34jsnf47bfa9a8ee4",
+		'x-rapidapi-host': "calorieninjas.p.rapidapi.com"
+		}
+	response = requests.request("GET",url,headers=headers,params=querystring)
+	
+	print(reponse.text)
+	return response.json()['items']
+	
+if __name__ =="main":
+	#running the app
+	app.run(debug=False)
