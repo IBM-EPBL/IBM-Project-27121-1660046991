@@ -24,3 +24,28 @@ def image1():
 def launch():
 	if request.method == 'POST'':
 		f= reqest.files['file']#requesting the file
+		basepath=os.path.dirname('__file__')#storing the file directory
+		filepath = os.path.join(basepath,"uploads",f.filename)#storing the file in uploads folder
+		f.save(fileppath)#saving rhe file
+			       
+		img = image.load_img(filepath,target_size=(64,64))#load and reshaping the image
+		x=image.img_to_array(img)#converting image to and array
+	 	x=np.expand_dims(x,axis=0)#changing the dimensions of the image
+			       
+		pred = np.argmax(model.predict(x),axis=1)
+		print("prediction",pred)#printing the prediction
+		index = ['Apples','Banana','Orange','Pineapple','Watermelon']
+			       
+		result = str(index[pred[0]])
+			       
+		x=result
+		print(x)
+		result = nutrition(result)
+		print(result)
+			       
+		return render_templete("0.html",showcase=(result),showcase1=(x))
+def nutrition(index):
+	url = "https://calorieninjas.p.rapidapi.com/v1/nutrition"
+	querystring = {"query":index}
+	header = {
+		'x-rapidapi-key': "5d797ab107ms
