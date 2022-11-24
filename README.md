@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, We are Nutrition Analyser team</h1>
 <h3 align="center">Code Art online players</h3>
 
-- 🔭 We are currently working on [AI Powered Nutrition Analyzer for Fitness Enthusiasts](https://github.com/IBM-EPBL/IBM-Project-27121-1660046991)
+- 🔭 We are currently working on [AI Powered Nutrition Analyzer for Fitness Enthusiasts](https://github.com/IBM-EPBL/IBM-Project-27121-1660046991)/project
 
 - 🌱 We are currently learning **Artificial Intelligence and Machine Learning**
 
