@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-image: url("https://health.clevelandclinic.org/wp-content/uploads/sites/3/2019/06/cropped-GettyImages-643764514.jpg");
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+    #navbar{
+            background:#333;
+            color:#fff;
+            overflow:auto;
+            height: 70px;
+        }
+        
+        #navbar a{
+            color:#fff
+        }
+        
+        #navbar h1{
+            float:left;
+            padding-top:20px;
+        }
+        
+        #navbar ul{
+            list-style:none;
+            float:right;
+        }
+        
+        #navbar ul li {
+         float:left;
+        }
+        
+        #navbar ul li a{
+            display:block;
+            padding:20px;
+            text-align: center;
+        }
+        
+        #navbar ul li a:hover,
+         #navbar ul li a.current{
+            background:#444;
+            color:#f7c08a;
+        }
+        .logo>a{
+            text-decoration: none;
+        }
+        .content{
+            display: flex;
+            margin-top: 250px;
+            margin-left: 560px;
+            text-align: center;
+            gap: 20px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .content button{
+            background-color: orange !important;
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+            border-color: aliceblue;
+            color: #fff !important;
+            font-size: 16px;
+        }
+
+</style>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">AI powered Nutrition Analyzer</a></h1>
+                <ul>
+                    <li><a href="HomePage.html">Home</a></li>
+                    <li><a class="current" href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+            <div class="analyzer">
+                <button><a href="Analyze.html"></a>Analyzer</button>
+            </div>
+            <div class="diet">
+                <button><a href="Diet.html"> DietPlan </a></button>
+            </div>
+            <div class="workout">
+                <button>Workout</button>
+            </div>
+    </div>
+</body>
+</html>

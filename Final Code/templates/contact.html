@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+ 
+#button2:hover {
+  background-color: red;
+} 
+
+#button2{
+    background-color: orange;
+    width: 100px;
+    height: 35px;
+    border: 30px;
+    border-radius: 10px;
+}
+
+#button1{
+    background-color: orange;
+    width: 100px;
+    height: 35px;
+    border: 30px;
+    border-radius: 10px;
+}
+#button1>a{
+    text-decoration: none;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;;
+}
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+img{
+
+    margin-top: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <button id="button1"><a href="homepage.html">Go Back</a></button>
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p> Leave us a message:</p>
+  </div>
+  
+  <div class="row">
+    <div class="column">
+      <img src="https://st.depositphotos.com/1265075/3330/i/950/depositphotos_33303183-stock-photo-web-contact-us-icons-on.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="India">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="australia">Australia</option>
+
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <!-- <input type="submit" value="Submit"> -->
+        <button type="submit" id="button2">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+/* header>h1{
+    color: orange;
+    text-align: center;
+    text-transform: capitalize;
+}
+img{
+    margin-left: 200px;   
+    float: left;
+}
+
+/* body{
+    border: 13px solid black;
+} 
+.forms1{
+    text-align: center;
+    padding: 20px;
+    margin-left: 110px;
+    margin-top: 120px;
+    display: flex;
+}
+input{
+    width: 400px;
+    height: 30px;
+ 
+}
+button{
+    color: orange;
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    font-size: large;
+    background-color: oldlace;
+    border-color: aliceblue;
+    text-align: center;
+    align-items: center;
+}
+small{
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+a{
+    text-decoration: none;
+} */
+header>h1{
+    color: orange;
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+.forms{
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    width: 300px;
+    height: 25px;
+    border-color: aliceblue;
+}
+body{
+    text-align: center;
+}
+div{
+    border: 1px solid black;
+    border-color: bisque;
+}
+button{
+    width: 100px;
+    font-weight: bolder;
+    background-color: green;
+    border-radius: 10px;
+    color: aliceblue;
+    height: 30px;   
+    border-color: aliceblue;
+}
+a{
+    text-decoration: none ;
+    font-weight: 600;
+    color: blue;
+    font-size: larger;
+}
+p{
+    font-weight: bolder;
+}
+.gender>input{
+    width: 10px;
+}
